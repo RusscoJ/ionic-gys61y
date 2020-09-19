@@ -15,3 +15,31 @@ font-family:'Courier New', Courier, monospace;
 margin-left: 45px;
 margin-right: 45px
 }
+
+.russcoFace {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border: 1px solid rgb(1, 1, 250);
+padding: 5px;
+width: 250px;
+}
+
+.russcoName {
+font-size: 25px;
+color: whitesmoke;
+text-align: center;
+font-family:'Courier New', Courier, monospace;
+margin-left: 45px;
+margin-right: 45px
+}
+
+.russcoDesc {
+font-size: 25px;
+color: whitesmoke;
+text-align: center;
+font-family:'Courier New', Courier, monospace;
+margin-left: 45px;
+margin-right: 45px
+}
