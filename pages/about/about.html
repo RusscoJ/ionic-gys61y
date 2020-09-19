@@ -1,11 +1,37 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Calculator
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+<h2> SPECIAL INSTALLMENT PLAN FOR SCHOOL CALCULATOR APP </h2>
+<p> Welcome to our calculator! All you will need are the tuition fee amount and the payment terms that go from 12, 18, or 24 months. After you input the following and press "solve," you will find the total payment needed, how much of it is interest, and how much you will be paying every month. Start now! </p>
+<ion-item>
+  <ion-label> Tuition Fee Amount Php </ion-label>
+  <ion-input type="number" [(ngModel)]="tuitionFeeAmount"> </ion-input>
+</ion-item>
+<br>
+<ion-item>
+  <ion-label> Payment Terms (12, 18, 24) </ion-label>
+  <ion-input type="number" [(ngModel)]="paymentTerms"> </ion-input>
+</ion-item>
+<br>
+<button ion-button color="Primary" (click)="solve()"> Solve </button>
+<br>
+<br>
+<ion-item> 
+  <h3> Total Interest Payable Php {{totalInterestPayable}} </h3>
+</ion-item>
+<ion-item> 
+  <h3> Total Amount Php {{totalAmount}} </h3>
+</ion-item>
+<ion-item> 
+  <h3> Monthly Payment Php {{monthlyPayment}} </h3>
+</ion-item>
+
 
 </ion-content>
