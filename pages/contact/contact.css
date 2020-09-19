@@ -1,15 +1,15 @@
 ion-content {
-background-image: url(https://cdn.jsdelivr.net/gh/RusscoJ/ionic-gys61y@master/Possible%20Background%201.jpg);
+background-image: url(https://cdn.jsdelivr.net/gh/RusscoJ/ionic-gys61y@master/possib%20bg%203.jpg);
 }
 h2 {
 font-size: 35px;
-color: whitesmoke;
+color: black;
 text-align: center;
 font-family:'Courier New', Courier, monospace;
 }
 p {
 font-size: 20px;
-color: whitesmoke;
+color: black;
 text-align: justify;
 font-family:'Courier New', Courier, monospace;
 margin-left: 45px;
@@ -28,7 +28,7 @@ width: 250px;
 
 .russcoName {
 font-size: 25px;
-color: whitesmoke;
+color: rgb(255, 255, 255);
 text-align: center;
 font-family:'Courier New', Courier, monospace;
 margin-left: 45px;
@@ -37,7 +37,7 @@ margin-right: 45px
 
 .russcoDesc {
 font-size: 25px;
-color: whitesmoke;
+color: rgb(255, 255, 255);
 text-align: center;
 font-family:'Courier New', Courier, monospace;
 margin-left: 45px;
